@@ -1,12 +1,236 @@
-<!DOCTYPE HTML>
-<HTML>
-  <head>
-    <TITLE>Pagina teste</TITLE>
-  </head>
+<!doctype html>
+<html lang="pt">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<BODY>
-<P> teste criação de pagina no git</P>
-</BODY>
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style>
+	.zero{
+		margin:0 auto;
+	}
+	</style>
+</head>
+<body >
+    <!-- Image and text -->
+	<nav class="navbar navbar-light bg-secondary">
+		<a class="navbar-brand text-white" href="#">
+			<img src="logo.png" width="30" height="30" class="d-inline-block align-top " alt="">
+			Curriculum Vitae
+		</a>
+	</nav>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">Home</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#apresentacao">Apresentação</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#habilidades">Habilidades</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#projetos">Projetos</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#experiencia">Experiências</a>
+				</li>
 
-</HTML>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="buscar" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+			</form>
+		</div>
+
+	</nav>
+	
+	<div class="row zero" id="apresentacao">
+		<div class="col-sm-2"></div>
+
+		<div class="col-sm-8">
+			<div class="card text-center">
+				<h3>Apresentação<h3>
+				
+			</div>
+		</div>
+	</div>
+	<div class="row zero">
+		<div class="col-sm-2"></div>
+
+		<div class="col-sm-8">
+			<div class="card">
+				<div class="card text-center">
+					<div class="card-header">
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Douglas H L Gomes</h5>
+						<p class="card-text"> Mogi Das Cruzes, SP - Brasileiro - 31 anos</p>
+
+						<a href="#" target="_blank" class="btn btn-primary">Linkedin</a>
+						<a href="https://github.com/DogdyZero/" target="_blank" class="btn btn-primary">Github</a>
+
+					</div>
+					<div class="card-footer text-muted">
+						Contato :  douglasgomes209@gmail.com 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="navbar navbar-light bg-secondary ">
+		<div class="col-sm-12">
+			<p class="text-center text-white"></p>
+		</div>
+	</div>
+	
+	<div class="row zero" id="habilidades">
+		<div class="col-sm-2"></div>
+
+		<div class="col-sm-8">
+			<div class="card text-center">
+				<h3>Habilidades<h3>
+				
+			</div>
+		</div>
+	</div>
+
+	
+	<div class="navbar navbar-light bg-secondary ">
+		<div class="col-sm-12">
+			<p class="text-center text-white"></p>
+		</div>
+	</div>
+	
+	<div class="row zero" id="projetos">
+		<div class="col-sm-2"></div>
+
+		<div class="col-sm-8">
+			<div class="card text-center">
+				<h3>Projetos<h3>
+				
+			</div>
+		</div>
+	</div>
+
+	
+
+	<div class="row zero">
+		<div class="col-sm-2"></div>
+
+		<div class="col-sm-4">
+			<div class="card">
+				<div class="card text-center">
+					<div class="card-header">
+					Java
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Projeto Engenharia III</h5>
+						<p class="card-text">Desenvolvido uma pequena aplicação com o crud de cadastro de cliente. Neste projeto foi utilizado os
+						pattern View Helper, Facede, Strategy, além da arquitetura MVC. Utilizando, porém não era requisito da aplicação: DTO e 
+						a api reflection para se gerar querys de forma dinâmica e automática</p>
+						<a href="https://github.com/DogdyZero/esiii-project" target="_blank" class="btn btn-primary">ver código</a>
+					</div>
+					<div class="card-footer text-muted">
+					Desenvolvido em 2018
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="card">
+				<div class="card text-center">
+					<div class="card-header">
+					Java (JSF+Hibernate)
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">The Books</h5>
+						<p class="card-text">Pequena aplicação utilizando os frameworks JSF (primefaces) e o Hibernate. O objetivo da aplicação
+						é gerar um ranking de pontos, conforme o usuário marca que lê um livro, e quando o leitor informa que leu ao mínimo 5
+						livros ganha um troféu de leitor da categoria. Utilizado os pattern Facede, Strategy, Factory.</p>
+						<a href="https://github.com/DogdyZero/thebooks" target="_blank" class="btn btn-primary">ver código</a>
+					</div>
+					<div class="card-footer text-muted">
+					Desenvolvido em 2019 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="navbar navbar-light bg-secondary ">
+		<div class="col-sm-12">
+			<p class="text-center text-white"></p>
+		</div>
+	</div>
+	
+	
+	
+	<div class="row zero" id="experiencia">
+		<div class="col-sm-2"></div>
+
+		<div class="col-sm-8">
+			<div class="card text-center">
+				<h3>Experiência Profissional<h3>
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="row zero">
+		<div class="col-sm-2"></div>
+
+		<div class="col-sm-4">
+			<div class="card">
+				<div class="card text-center">
+					<div class="card-header">
+					TLG Soluções
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Gerente Comercial - Autorizado Claro</h5>
+						<p class="card-text">Planejamento de compras, relatórios gerenciais, organização Estoque, controle caixa, gerenciamento da equipe de vendas .</p>
+					</div>
+					<div class="card-footer text-muted">
+					Período: 2012 até atualmente 
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="card">
+				<div class="card text-center">
+					<div class="card-header">
+					Ransom
+					</div>
+					<div class="card-body">
+						<h5 class="card-title">Auxiliar Administrativo</h5>
+						<p class="card-text">Elaboração de treinamentos, elaboração de mailing, relatórios gerenciais, gerenciamento da equipe de backoffice </p>
+					</div>
+					<div class="card-footer text-muted">
+					Período: de 2010 até 2012 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="navbar navbar-light bg-secondary ">
+		<div class="col-sm-12">
+			<p class="text-center text-white"></p>
+		</div>	
+
+	</div>
+
+ 
+   <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
